@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <title>Keanu Reeves Fan Page</title>
+    <link rel="stylesheet" href="js-carousel/simplecarousel.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js-carousel/simplecarousel.js">
+        /* =====================================
+ ** Simole Carousel- by JavaScript Kit (www.javascriptkit.com)
+ ** Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+===================================== */
+    </script>
+    <script>
+        jQuery(function ($) { // on DOM load
+
+            mycarousel = new simplecarousel({
+                id: 'mycarousel',
+                url: 'js-carousel/carouselcontent.htm'
+            })
+
+        })
+    </script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-title">
+            <h1>Киану Рийвс - Фен страница</h1>
+        </div>
+
+        <div class="nav-menu">
+            <a href="index.html">Начало</a>
+            <a href="bio.html">Биография</a>
+            <a href="career.html">Kариера</a>
+            <a href="filmography.html">Филмография</a>
+            <a href="gallery.html" class="current-page">Снимки</a>
+        </div>
+    </nav>
+    <section class="gallery-container">
+
+        <h2 class="h2-all">Галерия</h2>
+
+        <p>На тази страница можете да откриете снимки на Киану Рийвс.<br>Включени са такива от негови филми и интервюта.
+        </p>
+
+        <div class="carousel" id="mycarousel">
+            <div class="belt">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Дизайн и разработка - Кристиян Трайчов 2021 &copy; Ф.№: 46541з</p>
+        <p>Свалете копие от работните файлове на сайта: <a href="downloads/46541z.zip" ><b>Сваляне</b></a></p>
+    </footer>
+</body>
+
+</html>

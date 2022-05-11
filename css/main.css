@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+body{
+    color: white;
+    text-decoration: none;
+    font-family: roboto;
+    background-color: #84b1a2;
+}
+
+
+.current-page{
+    border: 1px groove whitesmoke;
+    border-radius: 10px;
+}
+/*nav Styles*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7C9B91;
+    height: 3em;
+    align-items: center;
+    border-bottom: 1px groove white;
+}
+
+.nav-title{
+    padding-left: 1em;
+}
+
+
+nav .nav-menu{
+    background-color: #7C9B91;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+    height: 2em;
+    padding: 0 2em;
+}
+
+
+
+nav .nav-menu a{
+    text-decoration: none;
+    color: #FCC876;
+    width: auto;
+    text-align: center;
+    padding: 0.40em;
+}
+
+nav a:hover{
+    color: white;
+}
+
+footer{
+    position: sticky;
+    border-top: 1px groove white;
+    padding: 1em 0 1em 1em;
+    background-color: #7C9B91;
+    top: 100%;
+}
+
+footer p{
+    font-size: 10pt;
+}
+
+/*index styles*/
+
+body .index-main{
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;   
+    align-items: center;
+   
+}
+
+.index-main>h2{
+    font-size: 40pt;
+    text-shadow: 2px 2px darkslategray;
+}
+
+.p-index{
+    margin: 1em;
+    height: 30%;
+    column-count: 2;
+    border: 3px groove white;
+    padding: 5em 5em 1em 5em;
+    gap: 15em;
+    
+}
+
+.p-index h3{
+    padding: 1em;
+    margin-bottom: 2em;
+    text-shadow: 2px 2px darkslategray;
+}
+
+.p-index ul{
+    list-style-type: "\279C";
+}
+
+/*bio styles*/
+
+.bio img{
+    float: left;
+    margin: 1em;
+}
+
+.h2-all{
+    font-size: 40pt;
+    text-shadow: 2px 2px darkslategray;
+}
+
+.bio .h2-all{
+    text-align: center;
+}
+
+.bio p{
+    margin: 1em;
+}
+
+.bio span{
+    font-style: italic;
+}
+
+.bio h3{
+    text-align: center;
+    text-shadow: 2px 2px darkslategray;
+}
+
+/* career styles */
+
+.career{
+    text-align: center;
+}
+
+.career h3{
+    text-shadow: 2px 2px darkslategray;
+    text-align: center;
+}
+
+.career-text{
+    text-align: left;
+    margin-left: 2em;
+}
+
+#star{
+    float: right;
+    margin: 2em;
+    border: 3px groove darkslategray;
+}
+
+#red-carpet-pic{
+    float: left;
+    margin: 1em;
+    border: 3px groove darkslategray;
+}
+
+/*filmography styles*/
+
+.films .h2-all{
+    text-align: center;
+}
+
+.films-table{
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px darkslategray;
+    margin-bottom: 1em;
+}
+
+.films-table th, tr, td{
+    border: 3px groove white;
+    border-collapse: collapse;
+    border-radius: 8px;
+    padding: 3px;
+}
